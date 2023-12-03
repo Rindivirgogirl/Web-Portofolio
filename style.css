@@ -1,0 +1,251 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: #1e1528;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding-top: 46px;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 126px;
+}
+
+.navbar ul li {
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.home-content {
+  width: 100%;
+  height: 828px;
+  background-image: url("image/bg.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-content p {
+  font-size: 64px;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 146px;
+  color: white;
+  margin-bottom: 300px;
+}
+
+.about-content .title {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.about-content .row {
+  display: flex;
+  gap: 123px;
+  justify-content: space-between;
+}
+
+.about-content .hi {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.about-content .row .body {
+  width: 723px;
+}
+
+.about-content .row .body .text-content {
+  text-align: start;
+  font-size: 36px;
+}
+
+.row .my-photo{
+    width: 300px;
+    height: 300px;
+    background-color: #D9D9D9;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-photo img{
+    width: 100px;
+    height: 100px;
+}
+
+.contact-content{
+    width: 100%;
+
+}
+
+.contact-content .title{
+    align-items: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+color: white;
+margin-bottom: 85px;
+}
+
+.contact-content .contact-row{
+    padding-left: 134px;
+     display: flex;
+     gap: 72px;
+     align-items: center;
+     margin-bottom: 43px;
+}
+
+.contact-row img{
+    width: 136px;
+    height: 103px;
+}
+
+.contact-row p{
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
